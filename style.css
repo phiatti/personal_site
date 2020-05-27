@@ -1,0 +1,24 @@
+body, div {
+    margin: 0px;
+}
+
+div {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.middle-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
