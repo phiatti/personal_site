@@ -1,14 +1,39 @@
 body, div {
     margin: 0px;
+    font-family: 'Merriweather', serif;
 }
 
 div {
-    background-color: cadetblue;
     text-align: center;
 }
 
 h1 {
-    margin: 0px;
+    margin: 0 auto;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5em;;
+    color: darkcyan;
+}
+
+h3, p {
+    color: darkcyan;
+}
+
+.top-container {
+    background-color: #e3fdfd;
+    position: relative;
+    padding-top: 120px;
+}
+
+.antenna {
+    position: absolute;
+    top: 20px;
+    right: 700px;
+    height: 70px;
+    width: 70px;
+}
+
+.bottom-cloud {
+    position: absolute;
 }
 
 .middle-container {
