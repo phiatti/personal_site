@@ -1,49 +1,63 @@
-body, div {
+body {
     margin: 0px;
     font-family: 'Merriweather', serif;
-}
-
-div {
     text-align: center;
+    color: darkcyan;
 }
 
 h1 {
     margin: 0 auto;
     font-family: 'Great Vibes', cursive;
-    font-size: 5em;;
+    font-size: 7em;
     color: darkcyan;
 }
 
-h3, p {
+h3, h2, h4 {
+    font-size: 2em;
     color: darkcyan;
 }
+
+hr {
+    width: 20%;
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: darkcyan;
+  }
 
 .top-container {
-    background-color: #e3fdfd;
     position: relative;
-    padding-top: 120px;
+    padding: 10px;
+    padding-bottom: 350px;
+    background-color: #e0ebe8;
 }
 
 .antenna {
     position: absolute;
-    top: 20px;
-    right: 700px;
-    height: 70px;
-    width: 70px;
+    top: 360px;
+    right: 730px;
+    height: 50px;
+    width: 50px;
 }
 
-.bottom-cloud {
+.graph {
     position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 300px;
+    left: 750px;
+}
+
+.network {
+    position: absolute;
+    height: 300px;
+    bottom: 20px;
+    left: 800px;
 }
 
 .middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+
 }
 
 .bottom-container {
-    background-color: green;
-    height: 200px;
-    width: 200px;
+    
 }
