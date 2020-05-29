@@ -54,8 +54,19 @@ hr {
     left: 750px;
 }
 
-.middle-container {
+td, th {
+    border: 1px solid #e0ebe8;
+    padding: 0.5rem;
+    text-align: left;
+}
 
+th {
+    background-color: #e0ebe8;
+}
+
+
+.middle-container {
+    text-align: center;
 }
 
 .bottom-container {
