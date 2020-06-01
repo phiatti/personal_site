@@ -56,18 +56,20 @@ hr {
 
 .middle-container {
     position: relative;
+    padding: 20px;
 }
 
 td {
-    border: 1px solid #e0ebe8;
+    border: 1px solid #66BFBF;
     padding: 0.5rem;
     text-align: left;
 }
 
 th {
-    border: 1px solid #e0ebe8;
+    border: 1px solid #66BFBF;
     padding: 0.5rem;
-    background-color: #e0ebe8;
+    background-color: #66BFBF;
+    color: white;
 }
 
 .exp {
@@ -86,7 +88,6 @@ th {
     width: 50%;
     margin: 50px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .my_skills {
@@ -102,5 +103,6 @@ th {
 }
 
 .bottom-container {
-    
+    padding: 40px;
+    background-color: #e0ebe8;
 }
